@@ -1,0 +1,30 @@
+[general]
+name=Look Around
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+description=Open Apple Look Around and/or Google Street View from a map click
+version=1.0.0
+author=Karl Stephan Steinbach
+email=277199764+KSSteinbach@users.noreply.github.com
+about=Click anywhere on the map to open the location in Google Street View and/or Apple Look Around in your browser. Apple Look Around uses the open-source lookmap.eu viewer for direct panorama access on all platforms. Optional coverage overlays show where panoramas are available before you click. Compatible with QGIS 3.28+ (PyQt5) and QGIS 4 (Qt6 / PyQt6).
+tracker=https://github.com/KSSteinbach/Look-around/issues
+repository=https://github.com/KSSteinbach/Look-around
+tags=street view,look around,apple,google,panorama,streetview,maps,google earth,apple maps,navigation
+homepage=https://github.com/KSSteinbach/Look-around
+category=Plugins
+icon=icons/icon_Tool.svg
+experimental=False
+deprecated=False
+hasProcessingProvider=no
+changelog=1.0.0 First Public Release (2026-05-12)
+  - Configurable Apple coverage tile limit (settings dialog)
+  - Settings dialog with inline hints
+  - Apple Look Around coverage layer (parallel fetch, two-tier cache)
+  - Background QgsTask for Apple coverage (avoid GUI freeze)
+  - Resilient HTTP layer (gzip, keep-alive, If-Modified-Since revalidation)
+  - Coverage layers and individual toolbar elements toggleable
+  - German translation
+  - Minimum QGIS version 3.28
+  - First stable (non-experimental) release
+  - Initial public release on GitHub
+
